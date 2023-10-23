@@ -3,7 +3,7 @@ var __commonJS = (cb, mod) => function __require() {
   return mod || (0, cb[__getOwnPropNames(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
 };
 var require_index_001 = __commonJS({
-  "assets/index-57533516.js"(exports, module) {
+  "assets/index-f6891740.js"(exports, module) {
     (function polyfill() {
       const relList = document.createElement("link").relList;
       if (relList && relList.supports && relList.supports("modulepreload")) {
@@ -6398,7 +6398,7 @@ var require_index_001 = __commonJS({
       "url(./Scene5-B.webp)",
       "url(./Scene8-glitch.webp)",
       "url(./Scene7-Website.webp)",
-      "url(./waterfal.webp"
+      "url(./waterfal.webp)"
     ];
     function getImageTag() {
       var randomIndex = Math.floor(Math.random() * imageURLs.length);
